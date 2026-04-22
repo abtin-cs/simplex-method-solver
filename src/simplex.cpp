@@ -184,7 +184,7 @@ int main(){
         b.push_back(rhs);
     }
 
-    // Build initial simplex tableau
+    // Build initial simplex tableau.
     int rows = m+1;
     int cols = n+m+1;
     vector<vector<double>> T(rows, vector<double>(cols,0));
