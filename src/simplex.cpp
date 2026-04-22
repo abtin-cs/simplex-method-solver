@@ -23,7 +23,7 @@ using namespace std;
 
 const double EPS = 1e-9;
 
-// Print simplex tableau with Z row at the top
+// Print simplex tableau with Z row at the top.
 
 void printTableau(const vector<vector<double>> &T, const vector<string> &varNames, 
                   const vector<string> &basicVar, int iter){
